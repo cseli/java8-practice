@@ -1,4 +1,4 @@
-package com.bold360.defmethod;
+package com.practice.java8.defmethod;
 
 public interface Person {
 	long getId();

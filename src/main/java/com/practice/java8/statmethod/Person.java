@@ -1,4 +1,4 @@
-package com.bold360.statmethod;
+package com.practice.java8.statmethod;
 
 public interface Person {
 

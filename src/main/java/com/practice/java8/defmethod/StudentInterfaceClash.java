@@ -1,4 +1,4 @@
-package com.bold360.defmethod;
+package com.practice.java8.defmethod;
 
 public class StudentInterfaceClash implements Person, Named {
 	@Override public long getId() {

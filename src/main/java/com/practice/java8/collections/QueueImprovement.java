@@ -1,4 +1,4 @@
-package com.bold360.collections;
+package com.practice.java8.collections;
 
 import java.util.Collections;
 import java.util.LinkedList;

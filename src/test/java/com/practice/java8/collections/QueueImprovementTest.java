@@ -1,4 +1,4 @@
-package com.bold360.collections;
+package com.practice.java8.collections;
 import static org.junit.Assert.assertTrue;
 
 import java.util.Queue;

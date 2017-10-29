@@ -1,7 +1,7 @@
-package com.bold360;
+package com.practice.java8;
 
-import com.bold360.statmethod.Person;
-import com.bold360.statmethod.Student;
+import com.practice.java8.statmethod.Person;
+import com.practice.java8.statmethod.Student;
 
 public class Main {
 	public static void main(String[] args) {
