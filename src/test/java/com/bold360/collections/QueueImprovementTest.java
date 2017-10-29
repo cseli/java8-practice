@@ -26,8 +26,8 @@ public class QueueImprovementTest {
 	@Test(expected = ClassCastException.class)
 	public void testInsertAndExecuteQueue() throws Exception {
 		testQueue = queueImprovement.getQueue();
-		testQueue.add(1);
 		testQueue.add("Hello");
+		testQueue.add(1);
 		queueImprovement.work();
 	}
 
