@@ -15,7 +15,8 @@ public class Person {
 	public String getName() {
 		return Arrays
 				.asList(firstName, lastName)
-				.stream().filter(name -> name != null)
+				.stream()
+				.filter(name -> name != null)
 				.collect(Collectors.joining(" "));
 	}
 
