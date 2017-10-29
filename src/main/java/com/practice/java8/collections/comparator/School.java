@@ -13,7 +13,8 @@ public class School {
 	}
 
 	Person[] getFirstByName() {
-		Arrays.sort(people, Comparator.comparing(Person::getName));
+		Arrays.sort(people, Comparator
+				.comparing(Person::getName));
 		return people;
 	}
 
