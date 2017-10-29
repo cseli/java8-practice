@@ -18,8 +18,8 @@ public class QueueImprovementTest {
 	@Test
 	public void testInsertQueue() throws Exception {
 		testQueue = queueImprovement.getQueue();
-		testQueue.add(1);
 		testQueue.add("Hello");
+		testQueue.add(1);
 		assertTrue("Unfortunately it is allowed because we forget the type parameter", testQueue.size() == 2);
 	}
 
