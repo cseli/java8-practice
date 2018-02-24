@@ -11,6 +11,10 @@ public class Main {
 
 		//static methods
 		Person person = new Student();
+		Student student = new Student();
+
+//		Student.getMothersName();
+
 		System.out.print(person.getAge()); //30
 //		System.out.print(person.getMothersName()); //not valid
 		System.out.print(Person.getMothersName()); //Susanne
